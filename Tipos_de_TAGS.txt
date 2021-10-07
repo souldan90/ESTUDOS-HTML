@@ -1,0 +1,19 @@
+class - Aplicada para formatar vários elementos de uma vez. <h1 class="titulo_post">
+
+id - É aplicada para formatar um único elemento. Não pode começar com número ou hífen, por exemplo: id=“123” ou id=“-987”, nem com símbolos, como, id=“@123” ou id=“&A12b”. <h2 id="destaque_header">
+
+style - Permite incluir estilos de CSS dentro da tag. <table style="border: 1px solid black">
+
+lang - Define o idioma principal. <html lang="pt-br">
+
+title - Define o título do elemento. <img src="img/bolo1.jpg" title="Bolo caseiro de chocolate">
+
+alt - Define um texto alternativo e, por isso, é muito utilizado para descrição de imagens. <img src="img/bolo1.jpg" alt="A imagem mostra um bolo de chocolate sobre uma mesa de madeira.">
+
+hidden - Oculta o elemento. <p hidden>Trecho de texto em aprovação</p>
+
+align - Define o padrão de alinhamento, como: right (direita), center (centralizado), left (esquerda) e justify (justificado). <h2 align="center">Título centralizado</h2>
+
+width - Determina a largura do elemento. <img src="img/bolo1.jpg" width="100%">
+
+height - Define uma altura para o elemento. <img src="img/bolo1.jpg" height="300px">

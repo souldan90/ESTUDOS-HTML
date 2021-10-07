@@ -1,0 +1,72 @@
+-header
+-nav
+-div
+-section
+-article
+
+Navegação <nav>
+
+Reúne links para a navegação (menu principal); normalmente está incluída dentro do header.
+
+No exemplo, a tag nav está assim:
+
+<nav id="menu">
+	<a href="index.html">home</a>
+	<a href="interna01.html">interna01</a>
+	<a href="interna02.html">interna02</a>
+</nav>
+
+================================================================================================================
+
+Divisão <div>
+
+É utilizada para fins de estilo; pode englobar outras tags em seu conteúdo, como textos, imagens ou títulos.
+
+No exemplo, temos mais de uma div; as quais contêm uma imagem e um atributo: style="height:100px; overflow:hidden".
+
+================================================================================================================
+
+Seção <section>
+
+Uma seção de um documento, geralmente, contém título; pode ser utilizada para descrever seções/tópicos de um documento.
+
+Há várias maneiras de usar a tag section. No exemplo, ela está assim:
+
+<section>
+	<h3>Resumo</h3>
+	<p>Aqui, veremos algumas tags importantes do body, como: header, nav, section, article e footer,
+	   além de algumas dicas.</p>
+	<!-- tag article aninhada aqui -->
+</section>
+
+==================================================================================================================
+
+Artigo <article>
+
+É utilizada para um conteúdo independente, por exemplo, uma postagem ou artigo. É recomendado identificar utilizando um título.
+
+No exemplo, a tag article está assim.
+
+<article>
+	<h4>Dicas</h4>
+	<p>As tags abordadas aqui são importantes, mas não são as únicas. Pesquise outras tags e seus
+	   atributos e mantenha-se sempre informado.</p>
+</article>
+
+==================================================================================================================
+
+Rodapé <footer>
+
+Define o rodapé e geralmente contém informações de autoria (nome e contato do autor) e data de criação do conteúdo.
+
+Observe que, no exemplo da tag footer, há uma div com o atributo style="float:left" e outra com float:right. Pesquise essa estilização.
+
+<footer>
+	<div style="float:left">
+		<p>autor: SENAI-SP</p>
+	</div>
+	<div style="float:right">
+		<p>março de 2021</p>
+	</div>
+</footer>
+

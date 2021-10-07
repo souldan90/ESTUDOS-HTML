@@ -1,0 +1,35 @@
+<head>
+  <meta charset="UTF-8">
+
+  <title>Meu primeiro site</title>
+    <meta name="description" content="Programador Front-End, Senai.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Senai">
+    <meta name="author" content="seu nome">
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+
+  </head>
+
+
+"description"
+Esse metadado fornece aos mecanismos de busca uma breve descrição do conteúdo do site. No exemplo, essa breve descrição está no atributo content ("Codificação Front-End, SENAI").
+
+Essa comunicação entre o site e os mecanismos de busca é chamada de Search Engine Optimization ou SEO. Uma meta tag de description bem feita é uma – mas não a única – ferramenta importante para um SEO eficiente.
+
+
+"keywords"
+Significa "palavras-chave", em português. Os navegadores leem essas palavras e exibem o site como sugestão em resultados de pesquisa. Não existe um limite de palavras-chave, porém acrescente palavras que estejam relacionadas à proposta do projeto.
+
+
+"author"
+Nome do(s) programador(es) do documento HTML.
+
+
+"viewport"
+Esse metadado indica para o navegador a largura para renderização, que deve se adaptar de acordo com o dispositivo de acesso (responsividade).
+
+É imprescindível determinar que o viewport mostre o conteúdo adaptado à largura de exibição da tela e não à resolução, pois devemos considerar a rotação de tela.
+
+Nesse exemplo, determinamos os valores da content como:
+
+width=device-width: determina que o layout se adapte automaticamente à largura de tela do dispositivo; e
+initial-scale=1.0: define a escala inicial do viewport.

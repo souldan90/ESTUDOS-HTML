@@ -1,0 +1,76 @@
+git config --global user.name " nome " - Setar usuário
+
+git config --global user.email - Setar email
+
+git init - Criar novo repositório local
+
+$ touch .gitignore
+
+git status - Verificar estado dos arquivos/diretórios
+
+git add meu_arquivo.txt (ou outra extensao) - Adicionar um arquivo em específico
+
+git add meu_diretorio - Adicionar um diretório em específico
+
+git add . - Adicionar todos os arquivos/diretórios
+
+git add -f arquivo_no_gitignore.txt - Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
+
+git commit meu_arquivo.txt - Comitar um arquivo
+
+git commit meu_arquivo.txt meu_outro_arquivo.txt - Comitar vários arquivos
+
+git commit meuarquivo.txt -m "minha mensagem de commit" - Comitar informando mensagem
+
+git remote / git remote -v - Exibir os repositórios remotos
+
+git remote add origin git@github.com:leocomelli/curso-git.git - Vincular repositório local com um repositório remoto
+
+git remote show origin - Exibir informações dos repositórios remotos
+
+git remote rename origin curso-git - Renomear um repositório remoto
+
+git git remote rm curso-git - Desvincular um repositório remoto
+
+git push -u origin master - O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+
+git push - Os demais pushes não precisam dessa informação
+
+git pull - Atualizar os arquivos no branch atual
+
+git fetch - Buscar as alterações, mas não aplica-las no branch atual
+
+git clone git@github.com:leocomelli/curso-git.git - Clonar um repositório remoto já existente
+
+git branch bug-123 - Criando um novo branch
+
+git checkout bug-123 - Trocando para um branch existente
+
+git checkout -b bug-456 - Criar um novo branch e trocar
+
+git checkout master - Voltar para o branch principal (master)
+
+git merge bug-123 - Resolver merge entre os branches
+
+git branch -d bug-123 - Apagando um branch
+
+git branch - Listar branches
+
+git push origin bug-123 - Criando um branch remoto com o mesmo nome
+
+git tag -a vs-1.1 -m "Minha versão 1.1" - Criando uma tag anotada
+
+git push origin vs-1.2 - Criando tags no repositório remoto
+
+git push origin --tags - Criando todas as tags locais no repositório remoto
+
+git rm meu_arquivo.txt - Remover arquivo
+
+git rm -r diretorio - Remover diretório
+
+git log - Exibir histórico
+
+git checkout -- meu_arquivo.txt - Este comando deve ser utilizando enquanto o arquivo não foi adicionado na staged area.
+
+git reset HEAD meu_arquivo.txt - Este comando deve ser utilizando quando o arquivo já foi adicionado na staged area.
+
