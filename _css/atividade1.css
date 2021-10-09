@@ -1,0 +1,21 @@
+.center{
+    text-align: center;
+    color:rgb(19, 6, 207);
+    font-family: fantasy;
+    
+}
+
+img {
+    width: 1500px;
+    height: 250px;
+       
+}
+
+p {
+    font-size: 10px;
+}
+
+.gameplay{
+    text-align: center;
+    color: lightseagreen;
+}
