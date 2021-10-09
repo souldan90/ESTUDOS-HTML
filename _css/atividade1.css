@@ -1,12 +1,13 @@
 .center{
     text-align: center;
-    color:rgb(19, 6, 207);
+    color:rgb(19, 8, 175);
     font-family: fantasy;
-    font-size: 75;
+    font-size: 150;
     
 }
 
 img {
+    margin-left: 300px;
     width: 1500px;
     height: 250px;
     
@@ -23,10 +24,10 @@ img {
 }
 
 .youtube{
-    margin: 0 auto;
+    margin-left: 665px;
     width: 600px;
 }
 
 body{
-    background-color: rgb(207, 131, 159);
+    background-color: rgb(230, 222, 225);
 }
