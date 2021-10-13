@@ -1,0 +1,23 @@
+.center{
+    text-align: center;
+    color: red;
+    font-family: Arial;
+}
+
+.p {
+    font-size: 50px;
+    color:deeppink;
+}
+body{
+    background-color:deepskyblue;
+}
+
+img {
+    width: 250px;
+    height: 250;
+}
+.youtube {
+    width: 750px;
+    margin:0 auto;
+    display: block;
+}

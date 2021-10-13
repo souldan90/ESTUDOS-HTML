@@ -1,0 +1,170 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../_imagem/fundo2.jpg");
+    background-repeat: no-repeat;
+  }
+  
+       .baner {      
+      border-radius: 20px;
+      position: absolute;
+	    left: 25%;
+	    top: 10%
+      
+              
+      }
+
+      .logo {
+        position: absolute;
+        border-radius: 20px;
+        top: 3%;
+        left: 3%;
+      }
+         
+      .OQ {
+        position: absolute;
+        top: 27%;                       /* OQUE VOCE PROCURA */
+        left: 1%;
+        width: 267px;
+        text-indent: 9px;
+        background-color: #20AAD6;
+        font-family: Georgia;
+                                      
+      }
+      .sidebar {
+        height: 44%;
+        width: 267px;
+        position:absolute;
+        z-index: 1;                          /* MENU COM LINKS */
+        top: 37%;                           
+        left: 1%;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 25px;
+      }
+      .sidebar a {
+        padding: 11px 11px 6px 15px;
+        text-decoration: none;             /* FONT DO MENU */
+        font-size: 23px;
+        color: #20AAD6;
+        display: block;
+        font-weight: bold;
+              }
+               .sidebar a:hover {
+                color: #166dbe;
+               }
+      
+        .cell {
+        position: absolute;
+        left: 80%;
+        top: 9%;
+               }
+        .note {
+        position: absolute;
+        left: 76%;
+        top: 54%;
+      }
+      .PC {
+        position: absolute;
+        left: 78%;
+        top: 31%;        
+      }
+      .VD {
+        position: absolute;
+        left: 76%;
+        top: 74%;
+      }
+      .fundo1 {
+        position: absolute;
+         left: 25%;
+        top: 44%;
+        width: 945px;
+        height: 588px;
+            }
+            .fundo2 {
+              position: absolute;
+              left: 1%;
+              top: 96%;
+              height: 68%;
+              width: 267px;
+              border-radius: 20px;            }
+      .item1 {
+        position:absolute;
+        left: 29%;
+        top: 50%;
+      }
+      .item2 {
+        position: absolute;
+        left: 53%;
+        top: 50%;
+      }
+      .item3 {
+        position: absolute;
+        left: 80%;
+        top: 50%;
+      }
+      .item4 {
+        position: absolute;
+        left: 26%;
+        top: 650px;
+      }
+      .item5 {
+        position: absolute;
+        left: 50%;
+        top: 608px;
+      }
+      .item6 {
+        position: absolute;
+        left: 77%;
+        top: 610px;
+      }
+      .contatos {
+        position: absolute;
+        top: 94%;
+        left: 3%;
+        text-indent: 9px;
+        font-family: Georgia;
+      }
+      .facebook {
+        position: absolute;
+        top: 110%;
+        left: 3%;
+        width: 15%;
+              }
+      .instagram {
+        position: absolute;
+        top: 123%;
+        left: 3%;
+        width: 15%;
+      }
+      .atendimento {
+        position: absolute;
+        border-radius: 20px;
+        top: 136%;
+        left: 3%;
+        width: 15%;
+      }
+     
+      .container {
+        top: 2%;
+        left: 48%;
+        width: 80%;
+        position: relative;
+        text-align: center;
+        color: white;
+        
+      }
+                
+      /* Centered text */
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+        font-family: Georgia;
+        font-weight: bold;
+              }
+      
+      
+      
