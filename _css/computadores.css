@@ -1,0 +1,199 @@
+body, html {
+ 
+    background-image: url("../_imagem/fundo.jpg");
+    background-repeat: no-repeat;
+    
+       }
+    
+         .fundoazul1 {      
+        border-radius: 20px;
+        position: absolute;
+          left: 25%;
+          top: 10%
+        
+                
+        }
+  
+        .logo {
+          position: absolute;
+          border-radius: 20px;
+          top: 3%;
+          left: 3%;
+        }
+           
+        .OQ {
+          position: absolute;
+          top: 27%;                       /* OQUE VOCE PROCURA */
+          left: 1%;
+          width: 267px;
+          text-indent: 9px;
+          background-color: #20AAD6;
+          font-family: Georgia;
+          color: #ffff;
+                                        
+        }
+        .sidebar {
+          height: 44%;
+          width: 267px;
+          position:absolute;
+          z-index: 1;                          /* MENU COM LINKS */
+          top: 37%;                           
+          left: 1%;
+          background-color: rgb(255, 255, 255);
+          overflow-x: hidden;
+          padding-top: 66px;
+        }
+        .sidebar a {
+          padding: 1px 1px 1px 1px;
+          text-decoration: none;             /* FONT DO MENU */
+          font-size: 17px;
+          color: #20AAD6;
+          display: block;
+          margin-left: 5%;
+          font-weight: bold;
+          letter-spacing: 0px;
+                }
+                 .sidebar a:hover {
+                  color: #08e75e;
+                 }
+                 
+        .marcas {
+            position: absolute;
+            top: 0%;
+            left: 31%;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        .Acessorios {
+            position: absolute;
+            top: 64%;
+            left: 31%;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+            .fundo1 {
+          position: absolute;
+           left: 25%;
+          top: 44%;
+          width: 945px;
+          height: 588px;
+              }
+              .fundo2 {
+                position: absolute;
+                left: 1%;
+                top: 96%;
+                height: 68%;
+                width: 267px;
+                border-radius: 20px;            }
+        .item1 {
+          position:absolute;
+          left: 29%;
+          top: 50%;
+        }
+        .item2 {
+          position: absolute;
+          left: 51%;
+          top: 50%;
+        }
+        .item3 {
+          position: absolute;
+          left: 75%;
+          top: 50%;
+          
+        }
+        .item4 {
+          position: absolute;
+          left: 29%;
+          top: 100%;
+        }
+        .item5 {
+          position: absolute;
+          left: 51%;
+          top: 625px;
+        }
+        .item6 {
+          position: absolute;
+          left: 75%;
+          top: 620px;
+        }
+        .contatos {
+          position: absolute;
+          top: 94%;
+          left: 3%;
+          text-indent: 9px;
+          font-family: Georgia;
+          color: #fff;
+        }
+        .facebook {
+          position: absolute;
+          top: 110%;
+          left: 3%;
+          width: 15%;
+                }
+        .instagram {
+          position: absolute;
+          top: 123%;
+          left: 3%;
+          width: 15%;
+        }
+        .atendimento {
+          position: absolute;
+          border-radius: 20px;
+          top: 136%;
+          left: 3%;
+          width: 15%;
+        }
+       
+        .container {
+          top: 2%;
+          left: 80%;
+          position: absolute;
+          text-align: center;
+          color: white;
+          
+        }
+                  
+        /* Centered text */
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: rgb(255, 255, 255);
+          font-family: Georgia;
+          font-weight: bold;
+          
+                }
+                             
+                .notebooksAnuncio{
+                    position: absolute;
+                    top: 15%;
+                    left: 43%;
+                    width: 30%;
+                    
+                 
+                }
+                .centerednote {
+                    position: absolute;
+                    top: 50%;
+                    left: 54%;
+                    transform: translate(-50%, -50%);
+                    color: #20AAD6;
+                    font-family: Georgia;
+                    font-weight: bold;
+                    font-size: 28px;
+                    letter-spacing: 13px;
+                }
+                .eugamer {
+                    color: white;
+                    margin-left: 55px;
+                }
+
+                .Acessorios {
+                    position: absolute;
+                    top: 40%;
+                    left: 31%;
+                    font-size: 20px;
+                    text-decoration: underline;
+                }

@@ -1,9 +1,10 @@
+
 body, html {
-    height: 100%;
-    margin: 0;
-    background-image: url("../_imagem/fundo2.jpg");
-    background-repeat: no-repeat;
-  }
+ 
+  background-image: url("../_imagem/fundo2.jpg");
+  background-repeat: no-repeat;
+  
+     }
   
        .baner {      
       border-radius: 20px;
@@ -29,6 +30,7 @@ body, html {
         text-indent: 9px;
         background-color: #20AAD6;
         font-family: Georgia;
+        color: #ffff;
                                       
       }
       .sidebar {
@@ -124,6 +126,7 @@ body, html {
         left: 3%;
         text-indent: 9px;
         font-family: Georgia;
+        color: #ffff;
       }
       .facebook {
         position: absolute;
@@ -147,9 +150,8 @@ body, html {
      
       .container {
         top: 2%;
-        left: 48%;
-        width: 80%;
-        position: relative;
+        left: 80%;
+        position: absolute;
         text-align: center;
         color: white;
         
@@ -164,7 +166,6 @@ body, html {
         color: rgb(255, 255, 255);
         font-family: Georgia;
         font-weight: bold;
+        
               }
-      
-      
-      
+            
