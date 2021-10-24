@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#azul{
+    background-color: blue;
+    height: 120px;
+    }
+#vermelho{
+    background-color: red;
+    height: 120px;
+}
+#amarelo{
+    background: yellow;
+    height: 400px;
+}
+#preto{
+    background-color: black;
+    height: 400px;
+}
+#verde{
+    background: green;
+    height: 60px;
+}
+#pink{
+    background:pink;
+    height: 60px;
+}
+
+@media screen and (max-width:576px) {
+    #azul{
+        height: 60px;
+    }
+    #vermelho{
+        height: 45px;
+    }
+}
