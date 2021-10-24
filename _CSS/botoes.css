@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+#botoes {
+    font-family: 'Times New Roman', Times, serif;
+    border: solid;
+    border-color: rgb(9, 153, 98);
+    padding: 3px;
+    text-align: center;
+    height: 500px;
+    
+}
