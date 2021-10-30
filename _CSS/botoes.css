@@ -7,12 +7,13 @@ body {
     background-color: black;
 }
 
-#botoes {
+.col-sm-8 {
     font-family: 'Times New Roman', Times, serif;
     border: solid;
     border-color: rgb(9, 153, 98);
-    padding: 3px;
+    padding: 5px;
     text-align: center;
     height: 500px;
     
 }
+
