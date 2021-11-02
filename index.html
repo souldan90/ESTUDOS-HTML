@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0b840e3980.js" crossorigin="anonymous"></script>
+    <script src="_javascript/Index.js"></script>
+    <title>EUGAMER</title>
+    </head>
+<body>
+  <HEADER>
+      <!--MENU CABEÇALHO-->
+          <div class="row">
+          <div id="branco" class="col-sm-12">
+         <a href="index.html"><img src="_imagem/LOGOTIPO2.jpg" alt="logo" class="logo"></a> 
+          <input type="text" placeholder="O que você Procura?">
+          <button onclick="document.getElementById('id02').style.display='block'" class="cadastrar"> CADASTRAR</button>
+          <button onclick="document.getElementById('id01').style.display='block'" class="logar"> ENTRAR</button>
+
+        </div>
+      </div>
+
+      <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="_imagem/LOGOTIPO2.jpg" alt="Avatar" class="avatar" style="width:20%">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Usuário</b></label>
+            <input type="text" placeholder="Digite seu nome de usuário" name="uname" required>
+      
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Digite sua senha" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Entrar Automático
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+        
+      </HEADER>
+      <!--MENU PRODUTOS-->
+      <nav>
+        <div class="row">
+          <div id="menu" class="col-sm-12">
+          <button class="tablink" onclick="openPage('Home', this, '20AAD6')"id="defaultOpen">HOME</button>
+<button class="tablink" onclick="openPage('VIDEOGAMES', this, '20AAD6')" >VIDEO-GAMES</button>
+<button class="tablink" onclick="openPage('NOTEBOOKS', this, '20AAD6')">NOTEBOOKS</button>
+<button class="tablink" onclick="openPage('COMPUTADORES', this, '20AAD6')">COMPUTADORES</button>
+<button class="tablink" onclick="openPage('CELULARES', this, '#20AAD6')">CELULARES</button>
+
+<div id="Home" class="tabcontent">
+    <img src="_imagem/fachada.jpg" alt="fachada">
+  <h3>Bem vindo a EUGAMER!</h3>
+  <p>Tudo o que você precisa para turbinar sua jogatina, trabalhamos <br>
+    com as melhores marcas do mundo gamer <br>
+  
+    Oferecemos um otimo serviço de entrega e os melhores preços, <br>
+ 
+    E agora é possivel comprar via whatsapp e pagar com pix!</p>
+  
+</div>
+
+<div id="VIDEOGAMES" class="tabcontent">
+  <a href="videogames.html"><h3>VIDEO-GAMES NA EUGAMER</h3></a> <BR>
+  <h4>LANÇAMENTOS:</h4>
+  <img src="_imagem/VIDEOGAMES/controleps5.jpg" alt="videogame1" height="200px;">
+  <img src="_imagem/VIDEOGAMES/minecraftjogos.jpg" alt="videogame2" height="200px;">
+  <img src="_imagem/VIDEOGAMES/nintendoSwitch.jpg" alt="videogame3" height="200px;">
+  <a href="playstation5.html"><img src="_imagem/VIDEOGAMES/playstation5.jpg" alt="videogame4" height="200px;"></a>
+  <img src="_imagem/VIDEOGAMES/xboxseriesX.jpg" alt="videogame5" height="200px;">
+  <img src="_imagem/VIDEOGAMES/zeldajogos.jpg" alt="videogame6" height="200px;">
+  </div>
+
+<div id="NOTEBOOKS" class="tabcontent">
+  <a href="notebooks.html"><h3>NOTEBOOKS NA EUGAMER</h3></a> <BR>
+  <h4>LANÇAMENTOS:</h4>
+  <img src="_imagem/NOTEBOOKS/notebookACER1.jpg" alt="notebook1" height="200px;">
+  <img src="_imagem/NOTEBOOKS/notebookACER2.jpg" alt="notebook2" height="200px;">
+  <img src="_imagem/NOTEBOOKS/notebookASUS1.jpg" alt="notebook3" height="200px;">
+  <img src="_imagem/NOTEBOOKS/notebookLENOVO1.jpg" alt="notebook4" height="200px;">
+  <img src="_imagem/NOTEBOOKS/notebookLENOVO2.jpg" alt="notebook5" height="200px;">
+  <img src="_imagem/NOTEBOOKS/notebooksamsung1.jpg" alt="notebook6" height="200px;">
+</div>
+
+<div id="COMPUTADORES" class="tabcontent">
+  <a href="computadores.html"><h3>COMPUTADORES E PERIFERICOS</h3></a> <BR>
+  <h4>LANÇAMENTOS:</h4>
+  <img src="_imagem/COMPUTADORES/COMPUTADOR1.jpg" alt="computador1" height="200px;">
+  <img src="_imagem/COMPUTADORES/cadeiragamer1.jpg" alt="computador2" height="200px;">
+  <img src="_imagem/COMPUTADORES/computadorgamer1.jpg" alt="computador3" height="200px;">
+  <img src="_imagem/COMPUTADORES/monitor1.jpg" alt="computador4" height="200px;">
+  <img src="_imagem/COMPUTADORES/mousegamer1.jpg" alt="computador5" height="200px;">
+  <img src="_imagem/COMPUTADORES/mousepad.jpg" alt="computador6" height="200px;">
+</div>
+
+<div id="CELULARES" class="tabcontent">
+    <a href="celulares.html"><h3>CELULARES NA EUGAMER</h3></a> <BR>
+ <h4>LANÇAMENTOS:</h4>
+  <img src="_imagem/CELULARES/CELULARMULTILASER1.png" alt="celular1" height="200px;">
+  <img src="_imagem/CELULARES/CELULARMULTILASER2.png" alt="celular2" height="200px;">
+  <img src="_imagem/CELULARES/CELULARNOKIA1.png" alt="celular3" height="200px;">
+  <img src="_imagem/CELULARES/CELULARNOKIA2.jpg" alt="celular4" height="200px;">
+  <img src="_imagem/CELULARES/CELULARPHILCO.jpg" alt="celular5" height="200px;">
+  <img src="_imagem/CELULARES/CELULARPOSITIVO1.jpg" alt="celular6" height="200px;">
+</div>
+  </div>
+    </div>
+      </div>
+    
+</nav>
+   <footer>
+    <div class="row"></div>
+    <div class="column left">
+      <h2>MENU</h2>
+      <p>VideoGames <br>
+         Notebooks  <br>
+         Computadores <br>
+         Celulares</p>
+    </div>
+    <div class="column right">
+      <h2>Mídias Sociais</h2>
+      <p><a href="#" class="fa fa-facebook">&ensp;&ensp;FACEBOOK</p></a>
+      <p><a href="#" class="fa fa-instagram">&ensp;INSTAGRAM</p></a>
+      <p><a href="#" class="fab fa-whatsapp">WHATSAPP</p></a>
+    </div>
+    <div class="column right2"></div>
+    <h2>Contatos</h2>
+    <p>Rua:Professor Tiburcio, 285 <br>
+    TEL:(11)930450201 <br>
+    EMAIL:eugamer@gmail.com <br>
+    &ensp;Horarios de Funcionamento <br>
+    &ensp;&ensp;&ensp;&ensp;&ensp;08:00h ás 20:00h <BR>
+      &ensp;&ensp;&ensp;&ensp;&ensp;Segunda a Sábado</p>
+   </footer>
+  
+</body>
+<script>document.getElementById("defaultOpen").click();</script>
+
+</html>

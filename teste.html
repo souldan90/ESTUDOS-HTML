@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+  background-color: white; /* Should be removed. Only for demonstration */
+}
+
+.left {
+    
+    color: rgb(255, 255, 255);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 14px;
+    font-size: 17px;
+    width: 15%;
+    font-weight: bolder;
+}
+
+.middle1 {
+  width: 15%;
+  display: none;
+}
+
+.right{
+ width: 70%;
+ display: none;
+ background-color: rgb(216, 216, 216);
+ height: auto;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tablink1 {
+    background-color: #f7f7f7;
+    color: #20AAD6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: bolder;
+    width: 100%;
+    display: block;
+  }
+  .tablink1:hover {
+    background-color: #000000;
+  }
+
+  .tablink2 {
+    background-color: #f7f7f7;
+    color: #20AAD6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: bolder;
+    width: 100%;
+    display: block;
+  }
+  .tablink2:hover {
+    background-color: #000000;
+  }
+
+  .container{
+      background-color: rgba(224, 224, 224, 0.863);
+      height: auto;
+      width: 100%;
+      border-radius: 15px;
+  }
+
+  h1 {
+      margin-left: 300px;
+      color: #20AAD6;
+      background: black;
+      width: 30%;
+  }
+
+  #XBOX img{
+      margin-left: 30px;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
+  }
+
+  #XBOX h1{
+    background-color: black;
+    border: solid;
+    border-radius: 25px;
+    width: 33%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  #PLAYSTATION img{
+      margin-left: 30px;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
+  }
+
+  #PLAYSTATION h1{
+    background-color: black;
+    border: solid;
+    border-radius: 25px;
+    width: 47%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left">
+    <button class="tablink1" onclick="openPage('CONSOLES', this, '20AAD6')">CONSOLES<i class="fa fa-caret-right"></i></button>
+    <button class="tablink1" onclick="openPage('JOGOS', this, '20AAD6')" >JOGOS<i class="fa fa-caret-right"></i></button>
+    <button class="tablink1" onclick="openPage('PERIFERICOS', this, '20AAD6')">PERIFERICOS<i class="fa fa-caret-right"></i></button>
+  </div>
+  <div id="CONSOLES" class="column middle">
+    <button class="tablink2" onclick="openPage('XBOX', this, '20AAD6')">XBOX<i class="fa fa-caret-right"></i></button>
+    <button class="tablink2" onclick="openPage('PLAYSTATION', this, '20AAD6')" >PLAYSTATION<i class="fa fa-caret-right"></i></button>
+    <button class="tablink2" onclick="openPage('NINTENDO', this, '20AAD6')">NINTENDO<i class="fa fa-caret-right"></i></button>
+    <button class="tablink2" onclick="openPage('RETRO', this, '20AAD6')">RETRO<i class="fa fa-caret-right"></i></button>
+  </div>
+  
+     <div id="XBOX" class="column right">
+        <h1>CONSOLES XBOX</h1>
+        <img src="_imagem/VIDEOGAMES/xboxseriesX.jpg" alt="videogame5" height="200px;">
+        <img src="_imagem/NOTEBOOKS/notebookACER1.jpg" alt="notebook1" height="200px;">
+        <img src="_imagem/NOTEBOOKS/notebookACER2.jpg" alt="notebook2" height="200px;">
+        <img src="_imagem/NOTEBOOKS/notebookASUS1.jpg" alt="notebook3" height="200px;">
+        <img src="_imagem/NOTEBOOKS/notebookLENOVO1.jpg" alt="notebook4" height="200px;">
+        <img src="_imagem/NOTEBOOKS/notebookLENOVO2.jpg" alt="notebook5" height="200px;">
+        <img src="_imagem/NOTEBOOKS/notebooksamsung1.jpg" alt="notebook6" height="200px;">
+        </div>
+
+        <div id="PLAYSTATION" class="column right">
+            <h1>CONSOLES PLAYSTATION</h1>
+            <img src="_imagem/VIDEOGAMES/controleps5.jpg" alt="videogame1" height="200px;">
+            <img src="_imagem/VIDEOGAMES/minecraftjogos.jpg" alt="videogame2" height="200px;">
+            <img src="_imagem/VIDEOGAMES/nintendoSwitch.jpg" alt="videogame3" height="200px;">
+            <a href="playstation5.html"><img src="_imagem/VIDEOGAMES/playstation5.jpg" alt="videogame4" height="200px;"></a>
+            <img src="_imagem/VIDEOGAMES/xboxseriesX.jpg" alt="videogame5" height="200px;">
+            <img src="_imagem/VIDEOGAMES/zeldajogos.jpg" alt="videogame6" height="200px;">
+    
+  </div>
+</div>
+
+</body>
+<script>
+    function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("right");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+
+}
+</script>
+</html>

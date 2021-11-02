@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="_css/videogame.css">
+  
+  <script src="https://kit.fontawesome.com/0b840e3980.js" crossorigin="anonymous"></script>
+  <script src="_javascript/videogames.js"></script>
+    <title>EG VIDEOGAMES</title>
+</head>
+<body>
+    <HEADER>
+        <!--MENU CABEÇALHO-->
+            <div class="row">
+            <div id="branco" class="col-sm-12">
+              <a href="index.html"><img src="_imagem/LOGOTIPO2.jpg" alt="logo" class="logo" ></a> 
+              <button onclick="document.getElementById('id01').style.display='block'" class="logar"> ENTRAR</button>
+            <input type="text" placeholder="O que você Procura?">
+         
+            
+          </div>
+        </div>
+        <div id="id01" class="modal">
+
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="_imagem/LOGOTIPO2.jpg" alt="Avatar" class="avatar" style="width:20%">
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Usuário</b></label>
+              <input type="text" placeholder="Digite seu nome de usuário" name="uname" required>
+        
+              <label for="psw"><b>Senha</b></label>
+              <input type="password" placeholder="Digite sua senha" name="psw" required>
+                
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Entrar Automático
+              </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </HEADER>
+        <nav>
+            <div class="row">
+              <div id="menu" class="col-sm-12">
+    <a href="index.html"><button class="tablink" >HOME</button></a>
+    <a href="videogames.html"><button class="tablink">VIDEO-GAMES</button></a>
+    <a href="notebooks.html"><button class="tablink">NOTEBOOKS</button></a>
+    <a href="computadores.html"><button class="tablink">COMPUTADORES</button></a>
+    <a href="celulares.html"><button class="tablink">CELULARES</button></a>
+    </div>
+    </div>
+    </nav>
+    <aside>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">TUDO O QUE VC PRECISA ESTÁ AQUI!
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div class="row">
+              <div class="column">
+                <h3>XBOX</h3>
+                <button class="tablink1" onclick="openPage('CONSOLESX', this, '20AAD6')" >CONSOLES</button>
+                <button class="tablink1" onclick="openPage('JOGOSX', this, '20AAD6')">JOGOS</button>
+                <button class="tablink1" onclick="openPage('PERIFERICOSX', this, '20AAD6')">PERIFERICOS</button>
+              </div>
+              <div class="column">
+                <h3>PLAYSTATION</h3>
+                <button class="tablink1" onclick="openPage('CONSOLESP', this, '20AAD6')" >CONSOLES</button>
+                <button class="tablink1" onclick="openPage('JOGOSP', this, '20AAD6')">JOGOS</button>
+                <button class="tablink1" onclick="openPage('PERIFERICOSP', this, '20AAD6')">PERIFERICOS</button>
+              </div>
+              <div class="column">
+                <h3>NINTENDO</h3>
+                <button class="tablink1" onclick="openPage('CONSOLESN', this, '20AAD6')" >CONSOLES</button>
+                <button class="tablink1" onclick="openPage('JOGOSN', this, '20AAD6')">JOGOS</button>
+                <button class="tablink1" onclick="openPage('PERIFERICOSN', this, '20AAD6')">PERIFERICOS</button>
+                </div>
+
+              <div id="CONSOLESX" class="tabcontent">
+                <a href="xbox-one-HD500gb.html"><img src="_imagem/VIDEOGAMES/Xbox One HD500GB.png" alt="videogame1" height="200px;"></a>
+                <a href="xbox-seriesS.html"><img src="_imagem/VIDEOGAMES/xboxseriesX.jpg" alt="videogame2" height="200px;"></a>
+                <a href="playstation5.html"><img src="_imagem/VIDEOGAMES/nintendoSwitch.jpg" alt="videogame3" height="200px;"></a>
+                <a href="playstation5.html"><img src="_imagem/VIDEOGAMES/playstation5.jpg" alt="videogame4" height="200px;"></a>
+            
+              </div>
+
+              <div id="CONSOLESN" class="tabcontent">
+                <img src="_imagem/NOTEBOOKS/notebookACER1.jpg" alt="notebook1" height="200px;">
+                <img src="_imagem/NOTEBOOKS/notebookACER2.jpg" alt="notebook2" height="200px;">
+                <img src="_imagem/NOTEBOOKS/notebookASUS1.jpg" alt="notebook3" height="200px;">
+                <img src="_imagem/NOTEBOOKS/notebookLENOVO1.jpg" alt="notebook4" height="200px;">
+                <img src="_imagem/NOTEBOOKS/notebookLENOVO2.jpg" alt="notebook5" height="200px;">
+                <img src="_imagem/NOTEBOOKS/notebooksamsung1.jpg" alt="notebook6" height="200px;">
+              </div>
+              </div>
+            </aside>
+           
+              
